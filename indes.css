@@ -403,6 +403,15 @@ body{
     transition: all .5s linear;
     box-shadow: 10px 10px 50px #000;
 }
+header{
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    height: 96px;
+}
+#break{
+    height: 96px;
+}
 
 @media screen and (max-width:1680px) {
     #nav{
