@@ -112,11 +112,13 @@ body{
 #sloganone{
     margin: 0 ;
     font-size: 80px;
+    direction: rtl;
 }
 
 #slogantwo{
     margin: 0;
     font-size: 100px;
+    direction: rtl;
 }
 
 #sloganP{
@@ -610,5 +612,25 @@ header{
     }
     #whylearn{
         margin-top: 500px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #slogan {
+        height: 230px;
+    }
+    #whylearn{
+        margin-top: 700px;
+    }
+    #sloganone{
+        font-size: 70px;
+    }
+    #slogantwo{
+        font-size: 90px;
+    }
+}
+@media screen and (max-width:380px) {
+    #slogan{
+        height: 300px;
     }
 }
